@@ -1,0 +1,14 @@
+aiogram==3.4.1
+aiohttp
+httpx
+feedparser
+PyYAML
+pydantic==2.7.1
+apscheduler
+SQLAlchemy==2.0.29
+openai
+beautifulsoup4
+lxml
+Pillow
+html2image
+tqdm

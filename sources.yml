@@ -1,0 +1,42 @@
+# AI News Sources
+- id: bens
+  type: rss
+  url: https://bensbites.beehiiv.com/feeds/latest.rss
+  interval: 15
+  lang: en
+  weight: 3
+
+- id: future
+  type: rss
+  url: https://www.futurepedia.io/rss.xml
+  interval: 15
+  lang: en
+  weight: 2
+
+- id: taaft
+  type: api
+  url: https://theresanaiforthat.com/api/tools/latest
+  interval: 60
+  lang: en
+  weight: 2
+
+- id: arxiv_ai
+  type: rss
+  url: http://export.arxiv.org/rss/cs.AI
+  interval: 15
+  lang: en
+  weight: 4
+
+- id: github_trend
+  type: github
+  url: https://github.com/trending?since=daily&topic=ai
+  interval: 60
+  lang: en
+  weight: 5
+
+- id: vc_ru
+  type: rss
+  url: https://vc.ru/tag/ai/rss
+  interval: 30
+  lang: ru
+  weight: 3
