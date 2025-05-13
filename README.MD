@@ -101,9 +101,8 @@ tests/                # pytest sanity-checks
 
 ## 🔁 CI / CD
 
-- **GitHub Actions**: `black`, `pytest`, `docker build`.
 - **Secrets**: `.env.example`, токены в GitHub Secrets.
-- Образ: 220 MB, деплой — 30 сек.
+
 
 ## 📊 Результаты
 
